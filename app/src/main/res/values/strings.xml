@@ -2,4 +2,6 @@
     <string name="app_name">einzelabgabe-auer</string>
     <string name="label_matNr">Erfahren sie mehr über Ihre MatNr</string>
     <string name="hint_matNr">Matrikelnummer</string>
+    <string name="label_serverAnswer">Antwort vom Uni Server:</string>
+    <string name="button_sendButton">senden</string>
 </resources>
