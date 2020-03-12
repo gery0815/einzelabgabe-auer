@@ -1,4 +1,4 @@
-package com.example.myapplication.network;
+package com.example.einzelabgabe_auer.network;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -13,10 +13,9 @@ public class NetworkClient extends Thread {
     private String payload;
     private String serverAnswer;
 
-    public NetworkClient(String host, int port, String payload) {
+    public NetworkClient(String host, int port) {
         this.host = host;
         this.port = port;
-        this.payload = payload;
         this.serverAnswer = "failed.";
     }
 
